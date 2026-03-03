@@ -1,8 +1,8 @@
 /* ABC Fitness Studio - Palette 2
-   Primary: #155EBC
+   Primary: #20458E  (Bootcamp Blue)
    Navy:    #001F3F
    Gray:    #D3D3D3
-   Accent:  #AC1724
+   Accent:  #AC1724  (Crimson Bloom)
 */
 
 body {
@@ -14,7 +14,7 @@ body {
 
 header {
   background: white;
-  border-bottom: 4px solid #155EBC;
+  border-bottom: 4px solid #20458E;
   padding: 16px;
 }
 
@@ -31,7 +31,7 @@ header {
 
 h1 {
   margin: 0;
-  font-size: 30px; /* Typography option 2 style */
+  font-size: 30px;
   font-weight: bold;
 }
 
@@ -42,7 +42,7 @@ nav {
 nav a {
   text-decoration: none;
   font-weight: bold;
-  color: #155EBC;
+  color: #20458E;
   margin-right: 14px;
 }
 
@@ -59,7 +59,7 @@ nav a:hover {
 
 .card {
   background: white;
-  border-left: 6px solid #155EBC;
+  border-left: 6px solid #20458E;
   border-radius: 10px;
   padding: 18px;
   margin-bottom: 18px;
@@ -67,12 +67,12 @@ nav a:hover {
 
 h2 {
   margin-top: 0;
-  font-size: 25px; /* Typography option 2 style */
+  font-size: 25px;
   font-weight: bold;
 }
 
 .btn {
-  background: #155EBC;
+  background: #20458E;
   color: white;
   border: none;
   padding: 10px 14px;
@@ -113,10 +113,14 @@ figcaption {
 
 footer {
   background: white;
-  border-top: 4px solid #155EBC;
+  border-top: 4px solid #20458E;
   padding: 14px 16px;
   text-align: center;
   font-size: 16px;
+}
+
+footer .btn {
+  margin-top: 10px;
 }
 
 /* Mobile */
