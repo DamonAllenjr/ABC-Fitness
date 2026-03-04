@@ -27,9 +27,7 @@
       <h2>Gallery</h2>
       <p>Photos of classes and featured equipment.</p>
 
-      <button id="addToCartBtn" class="btn" type="button">Add to Cart</button>
-      <button id="clearCartBtn" class="btn" type="button">Clear Cart</button>
-      <button id="processOrderBtn" class="btn" type="button">Process Order</button>
+      <button id="viewCartBtn" class="btn" type="button">View Cart</button>
     </section>
 
     <section class="card">
@@ -73,16 +71,19 @@
         <figure>
           <img src="assets/Client2_YogaMat.png" alt="Yoga mat">
           <figcaption>Yoga mat</figcaption>
+          <button class="btn add-to-cart" type="button" data-item="Yoga mat">Add to Cart</button>
         </figure>
 
         <figure>
           <img src="assets/Client2_WaterBottle.png" alt="Water bottle">
           <figcaption>Water bottle</figcaption>
+          <button class="btn add-to-cart" type="button" data-item="Water bottle">Add to Cart</button>
         </figure>
 
         <figure>
           <img src="assets/Client2_TeeShirt.png" alt="Tee shirt">
           <figcaption>Tee shirt</figcaption>
+          <button class="btn add-to-cart" type="button" data-item="Tee shirt">Add to Cart</button>
         </figure>
       </div>
     </section>
@@ -91,6 +92,20 @@
       <p>Newsletter + Social Media Links + Navigation Links</p>
       <button id="subscribeBtn" class="btn" type="button">Subscribe</button>
     </footer>
+  </div>
+
+  <!-- Modal -->
+  <div id="cartModal" class="modal">
+    <div class="modal-content">
+      <button id="closeCartBtn" class="btn" type="button">X</button>
+      <h3>Your Cart</h3>
+      <ul id="cartList"></ul>
+
+      <div style="margin-top: 12px;">
+        <button id="clearCartBtn" class="btn" type="button">Clear Cart</button>
+        <button id="processOrderBtn" class="btn" type="button">Process Order</button>
+      </div>
+    </div>
   </div>
 </body>
 </html>
